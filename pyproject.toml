@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nody"
+version = "0.1.0"
+description = "A Python data structure combining fixed-size node arrays with linked list traversal (Unrolled Linked List)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "ANURAG" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
